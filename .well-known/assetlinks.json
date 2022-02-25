@@ -1,0 +1,54 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.chequescore.uat",
+    "sha256_cert_fingerprints":
+    ["DB:E8:BA:C8:31:8A:93:1B:17:0E:C6:61:00:35:E2:F5:AD:4F:30:FD:A8:47:2F:C5:07:DD:4C:36:1F:6E:87:07"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://onlineuat.aecb.gov.ae"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.chequescore.uat",
+    "sha256_cert_fingerprints":
+    ["0A:76:18:95:66:69:60:41:E8:7C:E6:5C:8D:BB:57:C6:04:5E:B1:C8:BB:AB:E8:85:05:0C:52:D4:8A:00:59:AA"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.chequescore.app",
+    "sha256_cert_fingerprints":
+    ["68:EF:B4:EC:9B:14:30:C1:46:32:14:C4:55:1E:C0:3F:72:AC:CC:B4:AB:D7:A4:C9:C8:2C:71:CA:F9:72:3E:2F"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.chequescore.app",
+    "sha256_cert_fingerprints":
+      ["F1:9B:59:8C:83:B6:54:97:A7:F8:D2:92:64:0F:50:91:9D:4D:FD:AF:BC:DC:F6:13:00:FE:96:28:79:78:85:6A"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.chequescore.uat",
+    "sha256_cert_fingerprints":
+      ["F1:9B:59:8C:83:B6:54:97:A7:F8:D2:92:64:0F:50:91:9D:4D:FD:AF:BC:DC:F6:13:00:FE:96:28:79:78:85:6A"]
+  }
+}
+
+]
